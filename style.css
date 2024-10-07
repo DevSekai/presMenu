@@ -1,0 +1,35 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+#menuContainer {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  width: 40%; /* met la valeur que tu souhaites */
+  height: auto; /* la hauteur seras defini en fonction du nombre de bouton dans ton menu */
+  max-height: 50vh; /* la hauteur maximale du menu c'est a dire la height des items*le nombre d'item */
+  
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menuItem {
+  position: relative;
+  left: 5%;
+  color: white;
+  height: 5vh;
+  width: 90%;
+  
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  
+  background-color: rgba(0, 0, 0, 0.9)
+}
+
+.menuItem:hover {
+  background-color: blue;
+}
